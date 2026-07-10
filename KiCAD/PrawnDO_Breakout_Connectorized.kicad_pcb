@@ -1609,7 +1609,7 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp e9eed22c-fa6f-48bc-ae6d-ee65bf138f64))
     (pad "43" smd rect (at 2.54 23.9 270) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask")
       (net 35 "unconnected-(U2-SWDIO-Pad43)") (pinfunction "SWDIO") (pintype "bidirectional+no_connect") (tstamp 87fd78dd-1426-400a-b1a6-f6c323461404))
-    (model "${KIPRJMOD}/library/Pico.wrl"
+    (model "${LIBRARY}/Pico.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2084,7 +2084,7 @@
       (net 2 "GND") (pinfunction "~{OE}") (pintype "power_in") (tstamp 57d9659d-f603-4193-9e86-901cf69220f5))
     (pad "20" smd rect (at 4.725 -5.715 270) (size 0.7 1.95) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 75 "Power  Supply") (pinfunction "VCC") (pintype "power_in") (tstamp 1460be14-6e01-481a-aaaf-941cfefc4e23))
-    (model "74LVT245D,118.stp"
+    (model "${LIBRARY}/SOIC-20W_7.5x12.8mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2294,7 +2294,7 @@
       (net 2 "GND") (pinfunction "~{OE}") (pintype "power_in") (tstamp b1e71128-191c-4511-a770-fef41b0f9c00))
     (pad "20" smd rect (at 4.725 -5.715 270) (size 0.7 1.95) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 75 "Power  Supply") (pinfunction "VCC") (pintype "power_in") (tstamp 61e1c875-a9e5-4977-ad4b-3ab30fe18325))
-    (model ":KICAD7_3DMODEL_DIR:Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step"
+    (model "${LIBRARY}/SOIC-20W_7.5x12.8mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2457,7 +2457,7 @@
       (net 2 "GND") (pinfunction "~{OE}") (pintype "power_in") (tstamp 7906a29a-ef99-44fb-8e73-a86d381e07a9))
     (pad "20" smd rect (at 4.725 -5.715) (size 0.7 1.95) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 75 "Power  Supply") (pinfunction "VCC") (pintype "power_in") (tstamp 05b09a76-562c-47d8-9d19-e1ec167efd7c))
-    (model "74LVT245D,118.stp"
+    (model "${LIBRARY}/SOIC-20W_7.5x12.8mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3525,7 +3525,7 @@
       (net 2 "GND") (pinfunction "~{OE}") (pintype "power_in") (tstamp 8c2b7e64-82c8-492b-b247-ecc7ca396c24))
     (pad "20" smd rect (at 4.725 -5.715 270) (size 0.7 1.95) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 75 "Power  Supply") (pinfunction "VCC") (pintype "power_in") (tstamp b0859090-4ffd-45de-8c83-836e8782d8ac))
-    (model "74LVT245D,118.stp"
+    (model "${LIBRARY}/SOIC-20W_7.5x12.8mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
